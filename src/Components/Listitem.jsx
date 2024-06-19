@@ -19,8 +19,8 @@ function Listitem({ list }) {
                     <img src={mail} alt="mail" />
                     <img src={ctr} alt="ctr" />
                     <img src={share} alt="share" />
-                    <span className="border-color"> | </span>
-                    <img src={location} alt="location" />
+                    <span className="border-color d-sm-none"> | </span>
+                    <img src={location} className="d-sm-none" alt="location" />
                 </div>
             </div>
         ))
