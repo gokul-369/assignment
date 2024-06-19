@@ -10,7 +10,6 @@ import Listitem from "./Listitem"
 function DetailsView() {
   const state = useSelector(state => state.detailsReducer?.convoDetails)
   const dispatch = useDispatch();
-  console.log(state);
   useEffect(() => {
     dispatch({ type: "LOAD_DETAILS" })
   }, [dispatch])
