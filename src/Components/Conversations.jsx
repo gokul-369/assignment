@@ -7,7 +7,7 @@ function Conversations() {
     const state = useSelector(state => state.conversationReducer)
     const dispatch = useDispatch()
     useEffect(() => {
-        // mocking an API call on Load in order to prevent a warning that says dispatch is never used
+        // mocking an API call on Load
         dispatch({ type: "LOAD_CONVOS" })
     }, [dispatch])
 

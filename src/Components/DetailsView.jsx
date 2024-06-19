@@ -36,7 +36,7 @@ function DetailsView() {
         <div className="stat-container">
           <StatCard stats={state?.stats} />
         </div>
-        <div style={{ marginTop: 25 }}>
+        <div style={{ marginTop: 25 }} className="tabs">
           <span className="fw-bold active-link section-link"> Recipients - {state?.recipientsCount}</span>
           <span className="fw-bold" style={{ marginLeft: 24 }}>Sections - {state?.sectionCount}</span>
         </div>
